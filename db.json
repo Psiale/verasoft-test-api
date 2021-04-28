@@ -1,5 +1,5 @@
 {
-  data: {
+  "data": {
     "id": 12345678,
     "first_name": "Joseph",
     "last_name": "Smith",
@@ -17,9 +17,9 @@
     "carrier_status": {
       "since": "2006-06-02T21:00:00.000Z",
       "status": "IN"
-    }
+    },
   },
-  orders: 
+  "orders": 
   {
     "orders_A": [],
     "orders_AA": [],
@@ -32,9 +32,9 @@
           "sent_tm": "16:19:00",
           "subject": {
             "title": "Thank You Bonus",
-            "email": "joe.smith@testemail.com"
+            "email": "joe.smith@testemail.com",
           },
-          "type": "Promotion Email"
+          "type": "Promotion Email",
         },
         {
           "id": 2,
@@ -43,13 +43,13 @@
           "sent_tm": "16:19:00",
           "subject": {
             "title": "Receipt #12345546",
-            "email": "joe.smith@testemail.com"
+            "email": "joe.smith@testemail.com",
           },
-          "type": "Order Receipt Email"
+          "type": "Order Receipt Email",
         }
       ]
     },
     "orders_B": [],
-    "orders_C": []
+    "orders_C": [],
   }
 }
